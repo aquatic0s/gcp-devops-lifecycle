@@ -14,7 +14,7 @@ spec:
       containers:
       - name: gcp-lifecycle-gke
         #enter your gcp user-name in place of user-name
-        image: gcr.io/<user-name>/gcpdevops:latest
+        image: gcr.io/<user-name>/gcpdevops-dev:latest #changed for dev branch
         ports:
         - containerPort: 5000
         env:
@@ -26,7 +26,7 @@ apiVersion: "v1"
 kind: "Service"
 metadata:
   name: "gcp-lifecycle-gke-service"
-  namespace: "gcp-lifecycle-prod"
+  namespace: "gcp-lifecycle-dev" #changed for dev branch
   labels:
     app.kubernetes.io/managed-by: "gcp-cloud-build"
 spec:
