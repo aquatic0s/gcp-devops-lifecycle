@@ -5,7 +5,7 @@ Implemented a complete DevOps lifecycle using the Google Cloud Platform. The goa
 
 ## Tools used
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <img src="img/git.png" alt="git" width="150" height="150">
