@@ -48,7 +48,7 @@ learn how to make <a href="https://www.geeksforgeeks.org/create-a-weather-app-us
 
 ## Steps followed
 
-<img src="img/devops-project.png" alt="Project Diagram">
+<p align = "center"><img src="img/devops-project.png" alt="Project Diagram"></p>
 
 - Created a GitHub repository with branch protection, so that not everybody can push to the main branch.
 
